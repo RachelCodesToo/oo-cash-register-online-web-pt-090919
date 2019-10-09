@@ -2,7 +2,7 @@ class CashRegister
 
   attr_accessor :total, :discount, :items, :title, :price, :last_transaction
   
-  def initialize(employee_discount = 0)
+  def initialize(discount = 0)
     @total = 0 
     @discount = discount
     @items = []
